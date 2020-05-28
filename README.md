@@ -20,7 +20,7 @@ Some of this code is of more general use:
   - runs `wsgi.py` in uwsgi on port 9090
   - WSGI interface creates molecule images and atom list from MOL/SDF, `docker exec` the shell to get to everything else.
 
-`assign_bmseid.py and bmrbids[.*].sql|sqlt3` - table (sqlite3) of BMSE IDs and associated InChI strings, and a script to look up/append new one
+`assign_bmseid.py` and `bmrbids[.*].sql|sqlt3` - table (sqlite3) of BMSE IDs and associated InChI strings, and a script to look up/append new one
 
 `__main__.py` and `bmrbmb.properties` - command line wrapper for creating an NMR-STAR file from files prepared at NMRFAM and its config file
 
