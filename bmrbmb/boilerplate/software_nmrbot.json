@@ -1,0 +1,24 @@
+{
+    "sf_category" : "software",
+    "name" : "software_nmrbot",
+    "software_name" : "NMRBot",
+    "vendor" :
+    [
+        {
+            "name" : "NMRFAM",
+            "url" : "http://www.nmrfam.wisc.edu/software/nmrbot/"
+        }
+    ],
+    "task" :
+    [
+        {
+            "task" : "collection"
+        }
+    ],
+    "citation" :
+    [
+        {
+            "name" : "citation_nmrbot"
+        }
+    ]
+}

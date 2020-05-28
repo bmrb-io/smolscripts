@@ -1,0 +1,214 @@
+{
+    "sf_category" : "citations",
+    "name" : "citation_pubmed",
+    "class" : "reference citation",
+    "pmid" : "17170002",
+    "doi" : "10.1093/nar/gkl1031",
+    "title" : "Database resources of the National Center for Biotechnology Information",
+    "status" : "published",
+    "type" : "journal",
+    "journal_issn" : "0305-1048",
+    "journal_abbrev" : "Nucleic Acids Res.",
+    "journal_name_full" : "Nucleic Acids Research",
+    "journal_issue" : "Database issue",
+    "journal_volume" : "35",
+    "page_first" : "D1",
+    "page_last" : "D2",
+    "year" : "2007",
+    "authors" :
+    [
+        {
+            "ordinal" : "1",
+            "given_name" : "David",
+            "family_name" : "Wheeler",
+            "first_initial" : "D.",
+            "middle_initials" : "L."
+        },
+        {
+            "ordinal" : "2",
+            "given_name" : "Tanya",
+            "family_name" : "Barrett",
+            "first_initial" : "T."
+        },
+        {
+            "ordinal" : "3",
+            "given_name" : "Dennis",
+            "family_name" : "Benson",
+            "first_initial" : "D.",
+            "middle_initials" : "A."
+        },
+        {
+            "ordinal" : "4",
+            "given_name" : "Stephen",
+            "family_name" : "Bryant",
+            "first_initial" : "S.",
+            "middle_initials" : "H."
+        },
+        {
+            "ordinal" : "5",
+            "given_name" : "Kathi",
+            "family_name" : "Canese",
+            "first_initial" : "K."
+        },
+        {
+            "ordinal" : "6",
+            "given_name" : "Vyacheslav",
+            "family_name" : "Chetvenin",
+            "first_initial" : "V."
+        },
+        {
+            "ordinal" : "7",
+            "given_name" : "Deanna",
+            "family_name" : "Church",
+            "first_initial" : "D.",
+            "middle_initials" : "M."
+        },
+        {
+            "ordinal" : "8",
+            "given_name" : "Michael",
+            "family_name" : "DiCuccio",
+            "first_initial" : "M."
+        },
+        {
+            "ordinal" : "9",
+            "given_name" : "Ron",
+            "family_name" : "Edgar",
+            "first_initial" : "R."
+        },
+        {
+            "ordinal" : "10",
+            "given_name" : "Scott",
+            "family_name" : "Federhen",
+            "first_initial" : "S."
+        },
+        {
+            "ordinal" : "11",
+            "given_name" : "Lewis",
+            "family_name" : "Geer",
+            "first_initial" : "L.",
+            "middle_initials" : "Y."
+        },
+        {
+            "ordinal" : "12",
+            "given_name" : "Yuri",
+            "family_name" : "Kapustin",
+            "first_initial" : "Y."
+        },
+        {
+            "ordinal" : "13",
+            "given_name" : "Oleg",
+            "family_name" : "Khovayko",
+            "first_initial" : "O."
+        },
+        {
+            "ordinal" : "14",
+            "given_name" : "David",
+            "family_name" : "Landsman",
+            "first_initial" : "D."
+        },
+        {
+            "ordinal" : "15",
+            "given_name" : "David",
+            "family_name" : "Lipman",
+            "first_initial" : "D.",
+            "middle_initials" : "J."
+        },
+        {
+            "ordinal" : "16",
+            "given_name" : "Thomas",
+            "family_name" : "Madden",
+            "first_initial" : "T.",
+            "middle_initials" : "L."
+        },
+        {
+            "ordinal" : "17",
+            "given_name" : "Donna",
+            "family_name" : "Maglott",
+            "first_initial" : "D.",
+            "middle_initials" : "R."
+        },
+        {
+            "ordinal" : "18",
+            "given_name" : "James",
+            "family_name" : "Ostell",
+            "first_initial" : "J."
+        },
+        {
+            "ordinal" : "19",
+            "given_name" : "Vadim",
+            "family_name" : "Miller",
+            "first_initial" : "V."
+        },
+        {
+            "ordinal" : "20",
+            "given_name" : "Kim",
+            "family_name" : "Pruitt",
+            "first_initial" : "K.",
+            "middle_initials" : "D."
+        },
+        {
+            "ordinal" : "21",
+            "given_name" : "Gregory",
+            "family_name" : "Schuler",
+            "first_initial" : "G.",
+            "middle_initials" : "D."
+        },
+        {
+            "ordinal" : "22",
+            "given_name" : "Edwin",
+            "family_name" : "Sequeira",
+            "first_initial" : "E."
+        },
+        {
+            "ordinal" : "23",
+            "given_name" : "Steven",
+            "family_name" : "Sherry",
+            "first_initial" : "S.",
+            "middle_initials" : "T."
+        },
+        {
+            "ordinal" : "24",
+            "given_name" : "Karl",
+            "family_name" : "Sirotkin",
+            "first_initial" : "K."
+        },
+        {
+            "ordinal" : "25",
+            "given_name" : "Alexandre",
+            "family_name" : "Souvorov",
+            "first_initial" : "A."
+        },
+        {
+            "ordinal" : "26",
+            "given_name" : "Grigory",
+            "family_name" : "Starchenko",
+            "first_initial" : "G."
+        },
+        {
+            "ordinal" : "27",
+            "given_name" : "Roman",
+            "family_name" : "Tatusov",
+            "first_initial" : "R.",
+            "middle_initials" : "L."
+        },
+        {
+            "ordinal" : "28",
+            "given_name" : "Tatiana",
+            "family_name" : "Tatusova",
+            "first_initial" : "T.",
+            "middle_initials" : "A."
+        },
+        {
+            "ordinal" : "29",
+            "given_name" : "Lukas",
+            "family_name" : "Wagner",
+            "first_initial" : "L."
+        },
+        {
+            "ordinal" : "30",
+            "given_name" : "Eugene",
+            "family_name" : "Yaschenko",
+            "first_initial" : "E."
+        }
+    ]
+}

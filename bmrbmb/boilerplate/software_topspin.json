@@ -1,0 +1,28 @@
+{
+    "sf_category" : "software",
+    "name" : "software_topspin",
+    "software_name" : "TopSpin",
+    "software_version" : "3",
+    "vendor" :
+    [
+        {
+            "name" : "Bruker Biospin",
+            "url" : "http://www.bruker.com/products/mr/nmr/nmr-software/software/topspin/"
+        }
+    ],
+    "task" :
+    [
+        {
+            "task" : "collection"
+        },
+        {
+            "task" : "processing"
+        },
+        {
+            "task" : "data analysis"
+        },
+        {
+            "task" : "peak picking"
+        }
+    ]
+}

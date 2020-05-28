@@ -1,0 +1,48 @@
+{
+    "sf_category" : "entry_information",
+    "name" : "entry_information",
+    "version_type" : "original",
+    "origination" : "author",
+    "experimental_method" : "NMR",
+    "experimental_method_subtype" : "solution",
+    "type" : "metabolite/natural product",
+    "experimental_methods" :
+    [
+        {
+            "id" : "1",
+            "type" : "NMR",
+            "subtype" : "solution"
+        }
+    ],
+    "source" :
+    [
+        {
+            "project" : "metabolomics",
+            "orgname_full" : "National Magnetic Resonance Facility at Madison",
+            "orgname_abbrev" : "NMRFAM"
+        }
+    ],
+    "authors" :
+    [
+        {
+            "ordinal" : "1",
+            "given_name" : "Maria",
+            "family_name" : "Nesterova",
+            "first_initial" : "M."
+        },
+        {
+            "ordinal" : "2",
+            "given_name" : "Paulo",
+            "family_name" : "Cobra",
+            "first_initial" : "P.",
+            "middle_initials" : "F."
+        },
+        {
+            "ordinal" : "3",
+            "given_name" : "John",
+            "family_name" : "Markley",
+            "first_initial" : "J.",
+            "middle_initials" : "L."
+        }
+    ]
+}

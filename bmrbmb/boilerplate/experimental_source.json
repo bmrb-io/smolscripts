@@ -1,0 +1,10 @@
+{
+    "sf_category" : "experimental_source",
+    "name" : "experimental_source",
+    "experimental_source" : 
+    [
+        {
+            "production_method" : "chemical synthesis"
+        }
+    ]
+}

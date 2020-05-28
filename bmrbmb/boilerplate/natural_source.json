@@ -1,0 +1,10 @@
+{
+    "sf_category" : "natural_source",
+    "name" : "natural_source",
+    "natural_source" : 
+    [
+        {
+            "type" : "multiple natural sources"
+        }
+    ]
+}

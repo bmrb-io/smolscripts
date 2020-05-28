@@ -1,0 +1,29 @@
+{
+    "sf_category" : "citations",
+    "name" : "entry_citation",
+    "class" : "entry citation",
+    "type" : "BMRB only",
+    "authors" :
+    [
+        {
+            "ordinal" : "1",
+            "given_name" : "Maria",
+            "family_name" : "Nesterova",
+            "first_initial" : "M."
+        },
+        {
+            "ordinal" : "2",
+            "given_name" : "Paulo",
+            "family_name" : "Cobra",
+            "first_initial" : "P.",
+            "middle_initials" : "F."
+        },
+        {
+            "ordinal" : "3",
+            "given_name" : "John",
+            "family_name" : "Markley",
+            "first_initial" : "J.",
+            "middle_initials" : "L."
+        }
+    ]
+}

@@ -9,4 +9,6 @@ At this level, processing is a 2-step shuffle:
 
 `incoming2json.py` - step 2
 
-`nmrfam2json.py.old` - initial version of the code (I'm too lazy to preserve local version history when migrating to github, I'll just comit the old file and remove it later)
+`nmrfam2json.py.old` - initial version of the code (I'm too lazy to preserve local version history when migrating to github, I'll just commit the old file and remove it later)
+
+Subdirectories contain python code of the actual `bmrbmb` package.

@@ -1,0 +1,57 @@
+{
+    "sf_category" : "citations",
+    "name" : "citation_nmrbot",
+    "class" : "reference citation",
+    "pmid" : "PMC3651530",
+    "doi" : "10.1007/s11306-012-0490-9",
+    "title" : "NMRbot: Python scripts enable high-throughput data collection on current Bruker BioSpin NMR spectrometers",
+    "status" : "published",
+    "type" : "journal",
+    "journal_issn" : "1573-3882",
+    "journal_abbrev" : "Metabolomics",
+    "journal_name_full" : "Metabolomics",
+    "journal_issue" : "3",
+    "journal_volume" : "9",
+    "page_first" : "558",
+    "page_last" : "563",
+    "year" : "2013",
+    "authors" :
+    [
+        {
+            "ordinal" : "1",
+            "given_name" : "Lawrence",
+            "family_name" : "Clos",
+            "first_initial" : "L.",
+            "middle_initials" : "J.",
+            "family_title" : "II"
+        },
+        {
+            "ordinal" : "2",
+            "given_name" : "M.",
+            "family_name" : "Jofre",
+            "first_initial" : "M.",
+            "middle_initials" : "F."
+        },
+        {
+            "ordinal" : "3",
+            "given_name" : "James",
+            "family_name" : "Ellinger",
+            "first_initial" : "J.",
+            "middle_initials" : "J."
+        },
+        {
+            "ordinal" : "4",
+            "given_name" : "William",
+            "family_name" : "Westler",
+            "first_initial" : "W.",
+            "middle_initials" : "M."
+        },
+        {
+            "ordinal" : "5",
+            "given_name" : "John",
+            "family_name" : "Markley",
+            "first_initial" : "J.",
+            "middle_initials" : "L."
+        }
+    ]
+}

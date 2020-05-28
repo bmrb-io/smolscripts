@@ -1,0 +1,30 @@
+{
+    "id" : "DSS",
+    "sf_category" : "chem_shift_reference",
+    "name" : "chem_shift_ref" ,
+    "chem_shift_ref" : 
+    [
+        { 
+            "element" : "H", 
+            "isotope" : 1, 
+            "group" : "methyl protons", 
+            "units" : "ppm", 
+            "val" : 0.0,
+            "method" : "internal", 
+            "type" : "direct", 
+            "ratio" : 1.0, 
+            "molecule" : "DSS" 
+        },
+        { 
+            "element" : "C", 
+            "isotope" : 13, 
+            "group" : "methyl carbons", 
+            "units" : "ppm", 
+            "val" : 0.0,
+            "method" : "internal", 
+            "type" : "direct", 
+            "ratio" : 1.0, 
+            "molecule" : "DSS" 
+        }
+    ]
+}

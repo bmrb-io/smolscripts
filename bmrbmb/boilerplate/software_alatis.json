@@ -1,0 +1,24 @@
+{
+    "sf_category" : "software",
+    "name" : "software_alatis",
+    "software_name" : "ALATIS",
+    "vendor" :
+    [
+        {
+            "name" : "NMRFAM",
+            "url" : "http://alatis.nmrfam.wisc.edu/"
+        }
+    ],
+    "task" :
+    [
+        {
+            "task" : "atom nomenclature correction"
+        }
+    ],
+    "citation" :
+    [
+        {
+            "name" : "citation_alatis"
+        }
+    ]
+}

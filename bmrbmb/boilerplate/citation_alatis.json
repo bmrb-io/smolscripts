@@ -1,0 +1,46 @@
+{
+    "sf_category" : "citations",
+    "name" : "citation_alatis",
+    "class" : "reference citation",
+    "pmid" : "28534867",
+    "doi" : "10.1038/sdata.2017.73",
+    "title" : "Unique identifiers for small molecules enable rigorous labeling of their atoms",
+    "status" : "published",
+    "type" : "journal",
+    "journal_abbrev" : "Sci. Data",
+    "journal_name_full" : "Scientific Data",
+    "journal_issue" : "4",
+    "page_first" : "170073",
+    "page_last" : "563",
+    "year" : "2017",
+    "authors" :
+    [
+        {
+            "ordinal" : "1",
+            "given_name" : "Hesam",
+            "family_name" : "Dashti",
+            "first_initial" : "H."
+        },
+        {
+            "ordinal" : "2",
+            "given_name" : "William",
+            "family_name" : "Westler",
+            "first_initial" : "W.",
+            "middle_initials" : "M."
+        },
+        {
+            "ordinal" : "3",
+            "given_name" : "John",
+            "family_name" : "Markley",
+            "first_initial" : "J.",
+            "middle_initials" : "L."
+        },
+        {
+            "ordinal" : "4",
+            "given_name" : "Hamid",
+            "family_name" : "Eghbalnia",
+            "first_initial" : "H.",
+            "middle_initials" : "R."
+        }
+    ]
+}

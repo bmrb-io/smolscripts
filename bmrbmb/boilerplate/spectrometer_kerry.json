@@ -1,0 +1,9 @@
+{
+    "id" : "kerry",
+    "sf_category" : "NMR_spectrometer",
+    "name" : "spectrometer_kerry",
+    "manufacturer" : "Bruker",
+    "model" : "Avance III",
+    "field_strength" : "500",
+    "details" : "equipped with SampleJet automated sample changer"
+}
