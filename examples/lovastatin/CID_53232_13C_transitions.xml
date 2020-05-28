@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="bmrbmb" date="2019-10-10T15:43:13" expNo="3" name="CID_53232.DMSO.202.20191004" owner="" procNo="1" source="/nmrfam_data/bmrb_data">
+      <PeakPickDetails>F1=183.891708ppm, F2=-0.000000ppm, MI=0.07cm, MAXI=1.20cm, PC=1.400
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="175.547668" intensity="0.4567738" type="0"/>
+    <Peak1D F1="170.198349" intensity="0.4562048" type="0"/>
+    <Peak1D F1="133.06337" intensity="0.5577917" type="0"/>
+    <Peak1D F1="131.545166" intensity="0.4495762" type="0"/>
+    <Peak1D F1="129.169067" intensity="0.5109048" type="0"/>
+    <Peak1D F1="128.249557" intensity="0.4965872" type="0"/>
+    <Peak1D F1="75.784592" intensity="0.7095663" type="0"/>
+    <Peak1D F1="67.407585" intensity="0.5759986" type="0"/>
+    <Peak1D F1="61.251831" intensity="0.7613518" type="0"/>
+    <Peak1D F1="40.697693" intensity="0.8395827" type="0"/>
+    <Peak1D F1="38.526909" intensity="0.7245398" type="0"/>
+    <Peak1D F1="36.364441" intensity="0.6812143" type="0"/>
+    <Peak1D F1="36.009846" intensity="0.6509099" type="0"/>
+    <Peak1D F1="35.332512" intensity="0.625685" type="0"/>
+    <Peak1D F1="32.376274" intensity="0.5357851" type="0"/>
+    <Peak1D F1="31.904509" intensity="0.5289604" type="0"/>
+    <Peak1D F1="30.125654" intensity="0.6316013" type="0"/>
+    <Peak1D F1="26.897289" intensity="0.6426769" type="0"/>
+    <Peak1D F1="26.333199" intensity="0.8241707" type="0"/>
+    <Peak1D F1="23.648785" intensity="0.5179863" type="0"/>
+    <Peak1D F1="22.594463" intensity="0.8172138" type="0"/>
+    <Peak1D F1="16.059916" intensity="0.9798808" type="0"/>
+    <Peak1D F1="13.640379" intensity="0.8339192" type="0"/>
+    <Peak1D F1="11.363204" intensity="1.030128" type="0"/>
+  </PeakList1D>
+</PeakList>

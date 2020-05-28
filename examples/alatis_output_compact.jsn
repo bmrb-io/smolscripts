@@ -1,0 +1,439 @@
+[
+    [
+        {
+            "atoms": [
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "C1", 
+                    "ordinal": 1, 
+                    "stereo": "N", 
+                    "type": "C"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "C2", 
+                    "ordinal": 2, 
+                    "stereo": "N", 
+                    "type": "C"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "C3", 
+                    "ordinal": 3, 
+                    "stereo": "N", 
+                    "type": "C"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "C4", 
+                    "ordinal": 4, 
+                    "stereo": "N", 
+                    "type": "C"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "C5", 
+                    "ordinal": 5, 
+                    "stereo": "N", 
+                    "type": "C"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "C6", 
+                    "ordinal": 6, 
+                    "stereo": "R", 
+                    "type": "C"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "N7", 
+                    "ordinal": 7, 
+                    "stereo": "N", 
+                    "type": "N"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "O8", 
+                    "ordinal": 8, 
+                    "stereo": "N", 
+                    "type": "O"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H9", 
+                    "ordinal": 9, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H10", 
+                    "ordinal": 10, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H11", 
+                    "ordinal": 11, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H12", 
+                    "ordinal": 12, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H13", 
+                    "ordinal": 13, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H14", 
+                    "ordinal": 14, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H15", 
+                    "ordinal": 15, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H16", 
+                    "ordinal": 16, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H17", 
+                    "ordinal": 17, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H18", 
+                    "ordinal": 18, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H19", 
+                    "ordinal": 19, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H20", 
+                    "ordinal": 20, 
+                    "stereo": "N", 
+                    "type": "H"
+                }, 
+                {
+                    "aromatic": false, 
+                    "charge": 0, 
+                    "id": "H21", 
+                    "ordinal": 21, 
+                    "stereo": "N", 
+                    "type": "H"
+                }
+            ], 
+            "bonds": [
+                {
+                    "arom": "no", 
+                    "atom1": "C1", 
+                    "atom2": "N7", 
+                    "id": 1, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C1", 
+                    "atom2": "H9", 
+                    "id": 2, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C1", 
+                    "atom2": "H10", 
+                    "id": 3, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C1", 
+                    "atom2": "H11", 
+                    "id": 4, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C2", 
+                    "atom2": "C4", 
+                    "id": 5, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C2", 
+                    "atom2": "H12", 
+                    "id": 6, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C2", 
+                    "atom2": "H13", 
+                    "id": 7, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C3", 
+                    "atom2": "C2", 
+                    "id": 8, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C3", 
+                    "atom2": "C6", 
+                    "id": 9, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C3", 
+                    "atom2": "H14", 
+                    "id": 10, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C3", 
+                    "atom2": "H15", 
+                    "id": 11, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C4", 
+                    "atom2": "N7", 
+                    "id": 12, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C4", 
+                    "atom2": "H16", 
+                    "id": 13, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C4", 
+                    "atom2": "H17", 
+                    "id": 14, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C5", 
+                    "atom2": "H18", 
+                    "id": 15, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C5", 
+                    "atom2": "H19", 
+                    "id": 16, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C6", 
+                    "atom2": "C5", 
+                    "id": 17, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C6", 
+                    "atom2": "N7", 
+                    "id": 18, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "C6", 
+                    "atom2": "H20", 
+                    "id": 19, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "O8", 
+                    "atom2": "C5", 
+                    "id": 20, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }, 
+                {
+                    "arom": "no", 
+                    "atom1": "O8", 
+                    "atom2": "H21", 
+                    "id": 21, 
+                    "ord": "SING", 
+                    "stereo": "N", 
+                    "type": "covalent"
+                }
+            ], 
+            "charge": 0, 
+            "dblinks": [], 
+            "descriptors": [
+                {
+                    "descriptor": "CN1CCCC1CO", 
+                    "program": "RDKit", 
+                    "type": "SMILES_CANONICAL", 
+                    "version": "2017.09.3"
+                }, 
+                {
+                    "descriptor": "CN1CCCC1CO", 
+                    "program": "RDKit", 
+                    "type": "SMILES_ISOMERIC", 
+                    "version": "2017.09.3"
+                }, 
+                {
+                    "descriptor": "CN1CCCC1CO", 
+                    "program": "RDKit", 
+                    "type": "SMILES", 
+                    "version": "2017.09.3"
+                }, 
+                {
+                    "descriptor": "OC[C@H]1CCCN1C", 
+                    "program": "OpenBabel", 
+                    "type": "SMILES_CANONICAL", 
+                    "version": "2.3.2"
+                }, 
+                {
+                    "descriptor": "OC[C@H]1CCCN1C", 
+                    "program": "OpenBabel", 
+                    "type": "SMILES", 
+                    "version": "2.3.2"
+                }, 
+                {
+                    "descriptor": "InChI=1S/C6H13NO/c1-7-4-2-3-6(7)5-8/h6,8H,2-5H2,1H3/t6-/m1/s1", 
+                    "program": "OpenBabel", 
+                    "type": "InChI", 
+                    "version": "2.3.2"
+                }, 
+                {
+                    "descriptor": "VCOJPHPOVDIRJK-ZCFIWIBFSA-N", 
+                    "program": "OpenBabel", 
+                    "type": "InChI_KEY", 
+                    "version": "2.3.2"
+                }, 
+                {
+                    "descriptor": "InChI=1S/C6H13NO/c1-7-4-2-3-6(7)5-8/h6,8H,2-5H2,1H3/t6-/m1/s1", 
+                    "program": "ALATIS", 
+                    "type": "InChI", 
+                    "version": "na"
+                }
+            ], 
+            "formula": "C6H13NO", 
+            "identifiers": [
+                {
+                    "identifier": "[(2R)-1-methylpyrrolidin-2-yl]methanol", 
+                    "program": "http://cactus.nci.nih.gov/chemical/structure", 
+                    "type": "IUPAC NAME", 
+                    "version": "na"
+                }
+            ], 
+            "inchi_code": "InChI=1S/C6H13NO/c1-7-4-2-3-6(7)5-8/h6,8H,2-5H2,1H3/t6-/m1/s1", 
+            "name": "chem_comp_1", 
+            "num_atoms_all": 21, 
+            "num_atoms_nh": 8, 
+            "paramagnetic": "no", 
+            "sf_category": "chem_comp", 
+            "weight": 115.17352000000005, 
+            "weight_monoisotopic_c13": 121.11984306900001, 
+            "weight_monoisotopic_c13n15": 122.11687796200002, 
+            "weight_monoisotopic_n15": 116.096748934, 
+            "weight_monoisotopic_nat": 115.099714041
+        }
+    ]
+]

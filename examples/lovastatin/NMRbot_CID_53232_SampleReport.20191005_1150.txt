@@ -1,0 +1,120 @@
+NMRbot_CID_53232_SampleReport.20191005_1150.txt
+Status Report for Automated Sample Data Collection
+## Host = kerry.nmrfam.wisc.edu ##
+
+## NMRbot version 20140226 ##
+
+## Initiated - 20191005_1150 ##
+
+- info:
+  CID_53232 in DMSO at position 202
+  foldername => CID_53232.DMSO.202.20191004
+  Exps => ZGCPPR,metabTOCSY,C13CPD_MMCD,C13DEPT90,C13DEPT135_MMCD,HSQCETGP,HSQCETGP,HMBCETGPL3ND_MMCD,COSY45SW,HSQC_TOCSY_ADIA
+- instrument initialization - passed
+- loading sample position 202 - passed
+- DMSO solvent lock - passed
+-   tuning probe channels - passed
+-   topshim tuneb tunea - passed
+- creating exp 1 with ZGCPPR parameters
+-   prosol parameters loaded
+-   NS changed to 32
+-   optimizing receiver gain - passed
+-   receiver gain set to 80.6
+- creating exp 2 with metabTOCSY parameters
+-   prosol parameters loaded
+-   NS changed to 32
+-   optimizing receiver gain - passed
+-   receiver gain set to 203
+- creating exp 3 with C13CPD_MMCD parameters
+-   prosol parameters loaded
+-   NS changed to 4096
+-   optimizing receiver gain - passed
+-   receiver gain set to 203
+- creating exp 4 with C13DEPT90 parameters
+-   prosol parameters loaded
+-   NS changed to 1024
+-   optimizing receiver gain - passed
+-   receiver gain set to 203
+- creating exp 5 with C13DEPT135_MMCD parameters
+-   prosol parameters loaded
+-   NS changed to 1024
+-   optimizing receiver gain - passed
+-   receiver gain set to 203
+- creating exp 6 with HSQCETGP parameters
+-   prosol parameters loaded
+-   NS changed to 8
+-   optimizing receiver gain - passed
+-   receiver gain set to 203
+- creating exp 7 with HSQCETGP parameters
+-   prosol parameters loaded
+-   NS changed to 8
+-   optimizing receiver gain - passed
+-   receiver gain set to 203
+- creating exp 8 with HMBCETGPL3ND_MMCD parameters
+-   prosol parameters loaded
+-   NS changed to 16
+-   optimizing receiver gain - passed
+-   receiver gain set to 203
+- creating exp 9 with COSY45SW parameters
+-   prosol parameters loaded
+-   NS changed to 32
+-   optimizing receiver gain - passed
+-   receiver gain set to 203
+- creating exp 10 with HSQC_TOCSY_ADIA parameters
+-   prosol parameters loaded
+-   NS changed to 32
+-   optimizing receiver gain - passed
+-   receiver gain set to 203
+- experiment folders set up - passed
+## Data Acquisition ##
+# Exp 1 - ZGCPPR (zgcppr)
+- dims 1- F1 1H, SW 16.03
+- start 20191005_1202
+- end   20191005_1205 - passed
+-   1H adaptive offset determined = 4.7000
+-   1H adaptive SW determined = 9.0103
+# Exp 2 - metabTOCSY (mlevph)
+- dims 2- F1 1H, SW 10.21; F2 1H, SW 10.21
+- start 20191005_1205
+- end   20191005_1718 - passed
+# Exp 3 - C13CPD_MMCD (zgpg30)
+- dims 1- F1 13C, SW 248.61
+- start 20191005_1718
+- end   20191005_2051 - passed
+# Exp 4 - C13DEPT90 (deptsp90)
+- dims 1- F1 13C, SW 236.77
+- start 20191005_2051
+- end   20191005_2145 - passed
+# Exp 5 - C13DEPT135_MMCD (deptsp135)
+- dims 1- F1 13C, SW 236.77
+- start 20191005_2145
+- end   20191005_2239 - passed
+-   13C adaptive offset determined = 93.9062
+-   13C adaptive SW determined = 174.1835
+# Exp 6 - HSQCETGP (hsqcetgp)
+- dims 2- F1 13C, SW 165.00; F2 1H, SW 12.99
+- start 20191005_2239
+- end   20191005_2335 - passed
+# Exp 7 - HSQCETGP (hsqcetgp) - SWadapted
+-   F1 SW changed to 174.18
+-   F2 SW changed to 9.01
+-   F1 1H offset changed to 4.70
+-   F2 13C offset changed to 93.91
+- dims 2- F1 13C, SW 174.18; F2 1H, SW 9.01
+- start 20191005_2335
+- end   20191006_0031 - passed
+# Exp 8 - HMBCETGPL3ND_MMCD (hmbcetgpl3nd)
+- dims 2- F1 13C, SW 240.00; F2 1H, SW 12.02
+- start 20191006_0031
+- end   20191006_0317 - passed
+# Exp 9 - COSY45SW (cosyqf45)
+- dims 2- F1 1H, SW 10.00; F2 1H, SW 10.00
+- start 20191006_0317
+- end   20191006_0549 - passed
+# Exp 10 - HSQC_TOCSY_ADIA (hsqcdietgpsisp.2)
+- dims 2- F1 13C, SW 165.00; F2 1H, SW 16.03
+- start 20191006_0550
+- end   20191006_1053 - passed
+
+## CID_53232 Experiment Set Ended - 20191006_1053 ##
+

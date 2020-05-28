@@ -1,0 +1,42 @@
+{ 
+"cid"          : "53232",
+"vendor"       : "Avachem",
+"catalog_num"  : "1646",
+"catalog_name" : "Lovastatin",
+"paramagnetic" : "no",
+"sdf"          : "CID_53232_alatised.sdf",
+"molpic" : "CID_53232.svg",
+"inchi"   : "InChI=1S/C24H36O5/c1-5-15(3)24(27)29-21-11-14(2)10-17-7-6-16(4)20(23(17)21)9-8-19-12-18(25)13-22(26)28-19/h6-7,10,14-16,18-21,23,25H,5,8-9,11-13H2,1-4H3/t14-,15-,16-,18+,19+,20-,21-,23-/m0/s1",
+"data" : {
+    "1" : {
+        "solute_amount": "10",
+        "solute_units" : "mg",
+        "solvent"      : "dmso",
+        "timedomain"   : "CID_53232.DMSO.202.20191004.tar.gz",
+        "botlog"       : "NMRbot_CID_53232_SampleReport.20191005_1150.txt",
+        "shifts"       : "CID_53232.csv",
+
+        "PEAKFILES"    : {
+             "CID_53232_13C_transitions.xml"         : "1D 13C",
+             "CID_53232_13C_DEPT135_transitions.xml" : "1D DEPT135",
+             "CID_53232_13C_DEPT90_transitions.xml"  : "1D DEPT90",
+             "CID_53232_1H_transitions.xml"          : "1D 1H",
+             "CID_53232_HSQC_transitions.xml" : "2D 1H-13C HSQC"
+        },
+
+        "PNGFILES"     : {
+            "CID_53232_1H.png"              : "1D 1H",
+            "CID_53232_13C.png"             : "1D 13C",
+            "CID_53232_13C_DEPT135.png"     : "1D DEPT135",
+            "CID_53232_13C_DEPT90.png"      : "1D DEPT90",
+            "CID_53232_COSY45.png"        : "2D 1H-1H COSY",
+            "CID_53232_HMBC.png"           : "2D 1H-13C HMBC",
+            "CID_53232_HSQC.png"               : "2D 1H-13C HSQC",
+            "CID_53232_HSQC_TOCSY_ADIA.png" : "2D 1H-13C HSQC-TOCSY-ADIA",
+            "CID_53232_TOCSY.png"           : "2D 1H-1H TOCSY"
+           }
+    }
+}
+}
+
+
