@@ -1,0 +1,7 @@
+# return existing or new ID
+./assign_bmseid.py /incoming/directory/index.file
+# make entry directory in session dir
+./__main__.py -c bmrbmb.properties -b bmseNNNNN -i /incoming/directory/index.file -o /"session"/directory 2>&1 | tee OUT
+# make "fnalized" BMRB entry
+./release.py -c release.conf -i /sesion/directory/bmseNNNNN.str
+
