@@ -274,6 +274,29 @@ class FAMtoJSN( object ) :
                             "atom_name" : row["alatis_id"], "naming_system" : "ALATIS" } )
 
         return
+    #
+    # the flip side of the above. Original version is for when ALATIS atom names are
+    # different from what's in the entry. This is for when the entry file has ALATIS
+    # names but other data files may have other atom names.
+    #
+    def add_author_atomname_map( self ) :
+        if self._verbose : sys.stdout.write( "%s.add_author_atomname_map()\n" % (self.__class__.__name__,) )
+
+        if self._chem_comp is None :
+            raise Exception( "Run precheck() first!" )
+
+        alt = self._mol.alatis_map()
+        if alt is None :
+            return
+
+        if not "atom_nomenclature" in self._chem_comp.keys() :
+            self._chem_comp["atom_nomenclature"] = []
+
+        for row in alt :
+            self._chem_comp["atom_nomenclature"].append( { "atom_id" : row["alatis_id"],
+                            "atom_name" : row["atom_id"], "naming_system" : "author" } )
+
+        return
 
     ################################################################################################
     # non-unique data.

@@ -21,7 +21,10 @@ import datetime
 import pprint
 import re
 
-STAROBJ_PATH = "/share/dmaziuk/projects/starobj"
+#
+# CHANGEME!
+#
+STAROBJ_PATH = "/share/dmaziuk/projects/github/starobj"
 sys.path.append( STAROBJ_PATH )
 import starobj
 
@@ -190,14 +193,17 @@ class StarMaker( object ) :
 
     ################################################################################################
     #
-    def __init__( self, stardict, entrydb, entrydata, entryid, verbose = False ) :
+    def __init__( self, stardict, entrydb, entrydata, entryid, molname = None, verbose = False ) :
         self._dict = stardict
         self._star = entrydb
         self._json = entrydata
         self._id = entryid
         self._verbose = bool( verbose )
-        self._title = None
-        self._get_title()
+        if molname is None :
+            self._title = None
+            self._get_title()
+        else :
+            self._title = str( molname ).strip()
         if self._title is None : raise Exception( "no molecule name" )
 
 # FIXME! this is also in entrydir.py, should be refactored
