@@ -1,27 +1,227 @@
 [
   [
     {
-      "ambiguous_chem_comp_sites": "no", 
-      "ambiguous_conformational_states": "no", 
-      "entity_comp_index": [
+      "atoms": [
         {
-          "auth_seq_id": 1, 
-          "comp_label": "chem_comp_1", 
+          "assembly_atom_id": 1, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
           "entity_id": 1, 
-          "id": 1
+          "id": "C1", 
+          "seq_id": 1, 
+          "type_symbol": "C"
+        }, 
+        {
+          "assembly_atom_id": 2, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "C2", 
+          "seq_id": 1, 
+          "type_symbol": "C"
+        }, 
+        {
+          "assembly_atom_id": 3, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "C3", 
+          "seq_id": 1, 
+          "type_symbol": "C"
+        }, 
+        {
+          "assembly_atom_id": 4, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "C4", 
+          "seq_id": 1, 
+          "type_symbol": "C"
+        }, 
+        {
+          "assembly_atom_id": 5, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "C5", 
+          "seq_id": 1, 
+          "type_symbol": "C"
+        }, 
+        {
+          "assembly_atom_id": 6, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "C6", 
+          "seq_id": 1, 
+          "type_symbol": "C"
+        }, 
+        {
+          "assembly_atom_id": 7, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "N7", 
+          "seq_id": 1, 
+          "type_symbol": "N"
+        }, 
+        {
+          "assembly_atom_id": 8, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "O8", 
+          "seq_id": 1, 
+          "type_symbol": "O"
+        }, 
+        {
+          "assembly_atom_id": 9, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H9", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 10, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H10", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 11, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H11", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 12, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H12", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 13, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H13", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 14, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H14", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 15, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H15", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 16, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H16", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 17, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H17", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 18, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H18", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 19, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H19", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 20, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H20", 
+          "seq_id": 1, 
+          "type_symbol": "H"
+        }, 
+        {
+          "assembly_atom_id": 21, 
+          "assembly_id": 1, 
+          "comp_index_id": 1, 
+          "entity_assembly_id": 1, 
+          "entity_id": 1, 
+          "id": "H21", 
+          "seq_id": 1, 
+          "type_symbol": "H"
         }
       ], 
-      "formula_weight": 115.17352000000005, 
+      "chemical_exchange_state": "no", 
+      "conformational_isomer": "no", 
       "id": 1, 
-      "name": "entity_1", 
-      "nonpolymer_comp_label": "chem_comp_1", 
-      "nstd_linkage": "no", 
-      "number_of_monomers": 1, 
-      "number_of_nonpolymer_components": 1, 
+      "name": "assembly_1", 
+      "number_of_components": 1, 
       "paramagnetic": "no", 
-      "sf_category": "entity", 
-      "thiol_state": "not present", 
-      "type": "non-polymer"
+      "physical_state": "native", 
+      "sf_category": "assembly", 
+      "thiol_state": "not present"
     }
   ], 
   [

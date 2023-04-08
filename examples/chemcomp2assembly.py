@@ -94,7 +94,7 @@ if __name__ == "__main__" :
             "seq_id": 1, 
         } )
 
-    dat.insert( 0, [enty] )
+    dat.insert( 0, [assy] )
 
     json.dump( dat, sys.stdout, indent = 2, sort_keys = True )
 
