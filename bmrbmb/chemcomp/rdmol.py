@@ -181,6 +181,14 @@ class RDmolecule( object ) :
 
     smiles = property( __smiles__ )
 
+    #
+    @property
+    def __inchi__( self ) :
+        k = Chem.MolToInchi( self._mol )
+        v = Chem.MolToInchiKey( self._mol )
+        return [ { "type" : "InChI", "descriptor" : v.strip(), "program" : self.program, "version" : self.version },
+            { "type" : "InChI_KEY", "descriptor" : k.strip(), "program" : self.program, "version" : self.version } ]
+
     # chem comp stuff formatted as json, or none
     # can be big-ish, don't use on large molecules
     #
