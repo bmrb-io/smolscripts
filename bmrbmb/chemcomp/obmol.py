@@ -15,8 +15,8 @@ import os
 import sys
 import re
 import json
-import pybel
-import openbabel
+from openbabel import openbabel
+from openbabel import pybel
 
 # wrapper for OpenBabel
 # require:
@@ -54,8 +54,8 @@ class OBmolecule( object ) :
 # until someone fixes this shit.
 #
 
-        if isinstance( infile, unicode ) :
-            infile = infile.encode( "ascii" )
+#        if isinstance( infile, unicode ) :
+#            infile = infile.encode( "ascii" )
 
         if sys.version_info[0] == 2 :
             mol = pybel.readfile( format = format, filename = infile ).next()
@@ -165,10 +165,11 @@ class OBmolecule( object ) :
         mol = openbabel.OBMol( self._mol.OBMol )
         mol.BeginModify()
         for atom in openbabel.OBMolAtomIter( mol ) :
-            if atom.IsCarbon() :
+#            if atom.IsCarbon() :
+            if atom.GetAtomicNum() == openbabel.Carbon :
                 if carbon is not None :
                     atom.SetIsotope( int( carbon ) )
-            elif atom.IsNitrogen() :
+            elif atom.GetAtomicNum() == openbabel.Nitrogen :
                 if nitrogen is not None :
                     atom.SetIsotope( int( nitrogen ) )
         mol.EndModify()
@@ -293,8 +294,8 @@ class OBmolecule( object ) :
         """bonds iterator"""
         if self._verbose : sys.stdout.write( "%s.iter_bonds()\n" % (self.__class__.__name__,) )
 
-        et = openbabel.OBElementTable()
-        for i in xrange( self._mol.OBMol.NumBonds() ) :
+#        et = openbabel.OBElementTable()
+        for i in range( self._mol.OBMol.NumBonds() ) :
             bond = self._mol.OBMol.GetBond( i )
             rc = { "id" : (bond.GetIdx() + 1) }
             rc["type"] = "covalent"
@@ -302,12 +303,14 @@ class OBmolecule( object ) :
             elif bond.IsEster() : rc["type"] = "ester"
             elif bond.IsCarbonyl() : rc["type"] = "carbonyl"
 
-            elt1 = et.GetSymbol( bond.GetBeginAtom().GetAtomicNum() )
+#            elt1 = et.GetSymbol( bond.GetBeginAtom().GetAtomicNum() )
+            elt1 = openbabel.GetSymbol( bond.GetBeginAtom().GetAtomicNum() )
             if str( elt1 ).lower() == "xx" : elt1 = "x"
-            rc["atom1"] = "%s%d" % (elt1,bond.GetBeginAtom().GetIdx())
-            elt2 = et.GetSymbol( bond.GetEndAtom().GetAtomicNum() )
+            rc["atom1"] = "%s%d" % (elt1,bond.GetBeginAtom().GetIdx(),)
+#            elt2 = et.GetSymbol( bond.GetEndAtom().GetAtomicNum() )
+            elt2 = openbabel.GetSymbol( bond.GetEndAtom().GetAtomicNum() )
             if str( elt2 ).lower() == "xx" : elt2 = "x"
-            rc["atom2"] = "%s%d" % (elt2,bond.GetEndAtom().GetIdx())
+            rc["atom2"] = "%s%d" % (elt2,bond.GetEndAtom().GetIdx(),)
 
             yield rc
 

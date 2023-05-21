@@ -25,7 +25,7 @@ if __name__ != '__main__':
     from . import chemcomp
     from . import chemshifts
     from . import nmrfam
-    from . import nmrstar
+#    from . import nmrstar
     from . import sample
     from . import topspin
     from . import www
@@ -759,7 +759,7 @@ if __name__ == '__main__':
     import boilerplate
     import chemcomp
     import chemshifts
-    import nmrfam
+#    import nmrfam
     import nmrstar
     import sample
     import topspin

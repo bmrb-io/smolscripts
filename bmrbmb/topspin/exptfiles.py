@@ -32,7 +32,7 @@ import glob
 
 class ExperimentFiles( object ) :
 
-    UMASK = 002
+    UMASK = 0o002
 
     # mainline wrapper: read the tarball and make the lists but don't extract
     #

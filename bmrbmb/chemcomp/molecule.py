@@ -38,8 +38,8 @@ class Molecule( object ) :
 # until someone fixes this shit.
 #
 
-        if isinstance( infile, unicode ) :
-            infile = infile.encode( "ascii" )
+#        if isinstance( infile, unicode ) :
+#            infile = infile.encode( "ascii" )
         obm = bmrbmb.chemcomp.OBmolecule.from_file( filename = infile, format = format, verbose = verbose )
         rdm = bmrbmb.chemcomp.RDmolecule.from_file( filename = infile, format = format, verbose = verbose )
 

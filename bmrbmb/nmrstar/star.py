@@ -15,7 +15,7 @@ from __future__ import absolute_import
 
 import os
 import sys
-import ConfigParser
+import configparser
 import json
 import datetime
 import pprint

@@ -15,12 +15,12 @@ from . import boilerplate
 from . import chemcomp
 from . import chemshifts
 from . import nmrfam
-from . import nmrstar
+#from . import nmrstar
 from . import sample
 from . import topspin
 from . import www
 #from .nmrfam2json import FAMtoDAT
-from .nmrfam2incoming import Precheck
+#from .nmrfam2incoming import Precheck
 from .incoming2json import FAMtoJSN
 
 
@@ -32,11 +32,11 @@ __all__ = [
     "chemcomp",
     "chemshifts",
     "nmrfam",
-    "nmrstar",
+#    "nmrstar",
     "sample",
     "topspin",
     "www",
-    "Precheck",
+#    "Precheck",
     "FAMtoJSN"
 ]
 #

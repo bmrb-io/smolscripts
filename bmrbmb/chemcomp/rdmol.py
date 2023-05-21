@@ -103,8 +103,8 @@ class RDmolecule( object ) :
 # until someone fixes this shit.
 #
 
-        if isinstance( infile, unicode ) :
-            infile = infile.encode( "ascii" )
+#        if isinstance( infile, unicode ) :
+#            infile = infile.encode( "ascii" )
 
         if sys.version_info[0] == 2 :
             mol = rdkit.Chem.SupplierFromFilename( infile, removeHs = False ).next()
@@ -373,7 +373,7 @@ class RDmolecule( object ) :
     def iter_sdfdata( self ) :
         """iterate over extra properties extracted from input (SDF)"""
 
-        return self._mol.GetPropsAsDict().iteritems()
+        return self._mol.GetPropsAsDict().items()
 
 #
 #

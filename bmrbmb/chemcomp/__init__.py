@@ -17,7 +17,7 @@ import sys
 from .obmol import OBmolecule
 from .rdmol import RDmolecule
 from .molecule import Molecule
-from .img3d import make_image
+# from .img3d import make_image
 
 #
 #
@@ -25,7 +25,7 @@ from .img3d import make_image
 __all__ = [ "OBmolecule",
         "RDmolecule",
         "Molecule",
-        "make_image"
+#        "make_image"
      ]
 #
 #
