@@ -256,9 +256,13 @@ def add_assembly( dat ) :
     assy["number_of_components"] = 1
     assy["paramagnetic"] = enty["paramagnetic"]
     assy["thiol_state"] = enty["thiol_state"]
-    assy["physical_state"] = "native"
-    assy["chemical_exchange_state"] = "no"
-    assy["conformational_isomer"] = "no"
+    assy["entity_assembly"] = {
+        "id" : 1, "assembly_id" : 1, "experimental_data_reported" : "yes",
+        "physical_state" : "native", "conformational_isomer" : "no",
+        "chemical_exchange_state" : "no", "entity_assembly_name" : comp["name"],
+        "entity_id" : 1
+    }
+
     assy["atoms"] = []
     for a in comp["atoms"] :
         assy["atoms"].append( {
