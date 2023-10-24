@@ -49,7 +49,7 @@ def fetch_text( url, verbose = False ) :
     try :
         f = urllib.request.urlopen( url )
         if (f.getcode() is not None) and (int( f.getcode() ) < 300) :
-            if f.info().gettype() != "text/plain" :
+            if f.info().get_content_type() != "text/plain" :
                 sys.stderr.write( "Not text/plain from %s\n" % (f.geturl(),) )
             try :
                 for i in f :

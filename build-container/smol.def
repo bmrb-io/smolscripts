@@ -1,0 +1,9 @@
+Bootstrap: localimage
+From: rdkit.sif
+
+%files
+    ../bmrbmb /opt/scripts/bmrbmb
+    process.sh /opt/process.sh
+
+%runscript
+    /opt/process.sh $1 $2 $3

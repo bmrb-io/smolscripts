@@ -91,10 +91,10 @@ class SDFtoJSN( object ) :
 # SDF meta
 #
         for (key, val) in self._mol.iter_sdfdata() :
-            if str( key ).strip().upper() == "MOLECULE_NAME" :
-                if (val is None) or (str( val ).strip() == "" ) :
-                    self._chem_comp["name"] = "chem_comp_%s" % (num,)
-                else : self._chem_comp["name"] = str( val ).strip()
+            # if str( key ).strip().upper() == "MOLECULE_NAME" :
+            #     if (val is None) or (str( val ).strip() == "" ) :
+            #         self._chem_comp["name"] = "chem_comp_%s" % (num,)
+            #     else : self._chem_comp["name"] = str( val ).strip()
             if str( key ).strip().upper() == "VENDOR" :
                 if (val is None) or (str( val ).strip() == "" ) :
                     pass
@@ -115,7 +115,7 @@ class SDFtoJSN( object ) :
                     pass
                 else :
                     self._volume = { "units" : m.group( 1 ), "value" : str( val ).strip() }
-
+        self._chem_comp["name"] = "chem_comp_%s" % (num,)
 # web stuff
 #
         if not "dblinks" in self._chem_comp.keys() :
@@ -293,17 +293,21 @@ if __name__ == '__main__':
 
     add_assembly( cnv.data )
 
-    if (cnv._volume is not None) or (cnv._concentration is not None) :
-        sample = { "name" : "sample", "sf_category" :  "sample" }
-        if cnv._volume is not None :
-            sample |= { "volume" : cnv._volume }
-        if cnv._concentration is not None :
-            sample |= { "concentration" : cnv._concentration }
+    # if (cnv._volume is not None) or (cnv._concentration is not None) :
+    #     sample = { "name" : "sample", "sf_category" :  "sample" }
+    #     if cnv._volume is not None :
+    #         sample |= { "volume" : cnv._volume }
+    #     if cnv._concentration is not None :
+    #         sample |= { "concentration" : cnv._concentration }
+    #
+    # cnv.data.append( [sample] )
 
-    cnv.data.append( [sample] )
-
-    sys.stdout.write( json.dumps( cnv.data, indent = 4, sort_keys = True ) )
-
+    with open(sys.argv[2], 'w') as json_output:
+        json_output.write(json.dumps(cnv.data, indent=4, sort_keys=True))
+    with open(sys.argv[3] + '.svg', 'w') as svg_output:
+        svg_output.write(cnv._mol._obmol._to_svg_small())
+    with open(sys.argv[3] + '_nom.svg', 'w') as svg_output:
+        svg_output.write(cnv._mol._obmol._to_svg_full())
 
 #
 #

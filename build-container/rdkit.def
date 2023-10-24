@@ -1,0 +1,10 @@
+Bootstrap: docker
+From: continuumio/anaconda
+
+%post
+    apt-get install -y --fix-missing || true
+    conda create -c conda-forge -n rdkit-env rdkit
+    conda install -y -c conda-forge -n rdkit-env openbabel
+    conda install -y -c conda-forge libiconv
+    conda clean --all --yes
+    conda init bash
