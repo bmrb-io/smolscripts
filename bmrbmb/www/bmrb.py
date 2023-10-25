@@ -15,7 +15,7 @@ import os
 import sys
 import json
 import pprint
-import collections
+from collections.abc import Iterable
 
 _HERE = os.path.split( __file__ )[0]
 sys.path.append( os.path.realpath( os.path.join( os.path.join( _HERE, ".." ), ".." ) ) )
@@ -40,7 +40,7 @@ def id_from_inchi( inchi, verbose = False ) :
     dat = bmrbmb.www.fetch_json( url = addr, verbose = verbose )
     if dat is None :
         return None
-    if not isinstance( dat, collections.Iterable ) :
+    if not isinstance( dat, Iterable ) :
         sys.stderr.write( "BMRB ID from InChI: not an iterable:\n" )
         pprint.pprint( dat )
         return None
