@@ -206,18 +206,22 @@ def add_assembly( dat ) :
 # fix up if not set:
 #
     if not "aromatic" in comp.keys() :
-        arom = False 
+        arom = "no"
         for a in comp["atoms"] :
-            if a["aromatic"] :
-                arom = True
-                break
+            if a["aromatic"] is True or a["aromatic"] == "yes":
+                arom = "yes"
+                a["aromatic"] = "yes"
+            else:
+                a["aromatic"] = "no"
 # JIC
 #
         if not arom :
             for b in comp["bonds"] :
-                if b["arom"] == "yes" :
-                    arom = True
-                    break
+                if b["arom"] is True or b["arom"] == "yes" :
+                    arom = "yes"
+                    b["arom"] = "yes"
+                else:
+                    b["arom"] = "no"
 
         comp["aromatic"] = arom
 
